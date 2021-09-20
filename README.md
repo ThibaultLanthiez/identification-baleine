@@ -26,4 +26,4 @@ Durant ce projet, j'ai utilisé les frameworks suivants :
 
 # Code
 
-Voici le code du projet : [notebook](https://github.com/ThibaultLanthiez/identification-baleine/blob/main/Identification%20baleine.ipynb)
+Voici le code du projet : [notebook](https://github.com/ThibaultLanthiez/identification-baleine/blob/main/Identification%20baleine.ipynb) (si ça ne change pas car le notebook est trop volumineux, faites *Download* puis retour)
