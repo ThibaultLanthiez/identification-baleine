@@ -2,16 +2,24 @@
 
 # Identification baleine
 
-Je joue depuis quelques années au football et je me suis demandé si l'on pouvait prévoir l'issue d'un match. En d'autres mots, prévoir quelle équipe va l'emporter ou si le match se finira par une égalité. 
+Voici mon notebook pour le challenge que m'a proposé [SOYHUCE](https://soyhuce.fr/) pour son recrutement de stage.
 
-Pour cela, j'ai téléchargé plusieurs [jeux de données](http://www.football-data.co.uk/data.php) (un par saison) avec les résultats des matchs et les cotes des principaux sites de paris sportifs.
+J'ai eu quatre jours, de lundi à jeudi, pour faire ce challenge. Étant donné que je suis étudiant, j'ai travaillé entre les cours.
 
-Tout d'abord, avec le langage python, j'ai nettoyé, encodé et normalisé les données. Puis je les ai analysés afin de créer de nouvelles variables plus significatives pour le modèle (comme par exemple le nombre de buts marqués pour une équipe lors de ses 10 derniers matchs).
+L'objectif du projet est d'aider des scientifiques d'un laboratoire de Normandie à identifier les baleines qu'ils rencontrent en mer.
 
-Enfin, j'ai créé et entrainé un modèle d'arbre de décision avec la bibliothèque Scikit-Learn. Cependant, prévoir l'issue d'un match de football est quelque chose de très compliqué. Étant donné le faible nombre de but lors d'un match, il est courant de voir l'équipe qui n'est pas favori l'emporter.
+Pour cela, j'ai à ma disposition un [jeu de données](https://www.kaggle.com/c/humpback-whale-identification/overview) composé d'une dizaine de milliers de photos de baleines, chacune identifiée par son id ou le label new_whale si c'est une baleine non indentifiée.
 
-Mon algorithme arrive à prévoir correctement 60% des issues de matchs de foot. Cela est légèrement mieux que l'aléatoire.
+J'ai commencé par analyser le jeu de données et visualiser les photos. Je les ai ensuite mis en forme pour les donner à mon modèle. Mon modèle est un réseau de neurones à convolution, une architecture spécialisée pour la reconnaissance d'images. Enfin, j'ai essayé d'améliorer la performance en développant un modèle en apprentissage par transfert.
+
+Durant ce projet, j'ai utilisé les frameworks suivants :
+* Le langage de programmation Python
+* Numpy et Pandas pour la manipulation et l'analyse des données
+* Matplotlib pour visualiser les photos de baleines
+* Tensorflow et Keras pour la création de modèles de machine learning
+* Streamlit pour mettre en production le modèle et créer une application web
+* Quelques fonctions de Scikit-learn pour redimensionner les images dans mon application
 
 # Code
 
-Voici le code du projet : [notebook](https://github.com/ThibaultLanthiez/Prediction-issue-matchs-foot/blob/main/Odds_Football_leagues.ipynb)
+Voici le code du projet : [notebook](https://github.com/ThibaultLanthiez/identification-baleine/blob/main/Identification%20baleine.ipynb)
