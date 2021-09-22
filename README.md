@@ -2,7 +2,7 @@
 
 # Identification de baleines :whale:
 
-Voici mon notebook pour le challenge que m'a proposé [SOYHUCE](https://soyhuce.fr/) pour son recrutement de stage.
+Voici le rendu pour le challenge que m'a proposé [SOYHUCE](https://soyhuce.fr/) pour son recrutement de stage.
 
 J'ai eu quatre jours pour faire ce challenge. Étant donné que je suis étudiant, j'ai travaillé entre les cours.
 
